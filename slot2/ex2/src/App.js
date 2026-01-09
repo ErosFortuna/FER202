@@ -1,15 +1,25 @@
-
-import './App.css';
-import About from './components/About';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Button from 'react-bootstrap/Button';
-
+import StudentList from './components/StudentList';
+import Container from 'react-bootstrap/Container';
+import Navbar from 'react-bootstrap/Navbar';
 
 function App() {
   return (
-    <div className="App">
-      <About />
-    </div>
+    <>
+      
+      <Navbar bg="dark" variant="dark" className="mb-4">
+        <Container>
+          <Navbar.Brand>
+             Top 5 Most Beautiful Women
+          </Navbar.Brand>
+        </Container>
+      </Navbar>
+
+     
+      <Container>
+        <StudentList />
+      </Container>
+    </>
   );
 }
 

@@ -5,32 +5,18 @@ import Card from 'react-bootstrap/Card';
 
 
 
-function About() {
-
-
-    const student = {
-        id: 1,
-        name: "Nguyen Van A",
-        avatar: "/imgs/4c19971180d8fbbc522bfe3315fa168b.jpg",
-        age: 20,
-        grade: "A"
-    };
-    console.log(student);
-    return (
-   <Card style={{ width: '18rem' }}>
+function About({ student }) { 
+  return (
+    <Card style={{ width: "18rem" }}>
       <Card.Img variant="top" src={student.avatar} />
-
       <Card.Body>
         <Card.Title>{student.name}</Card.Title>
-        <Card.Text>ID: {student.id}</Card.Text>
         <Card.Text>Age: {student.age}</Card.Text>
         <Card.Text>Grade: {student.grade}</Card.Text>
-
         <Button variant="primary">View Profile</Button>
       </Card.Body>
     </Card>
-    );
-
-    }
+  );
+}
 
     export default About;
