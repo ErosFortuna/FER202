@@ -1,22 +1,28 @@
-//khai bao 1 doi tuong gom id,name,avatar,grade
-//in thongg tin cua h1,pvaf img
-import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
+import Button from 'react-bootstrap/Button';
 
-
-
-function About({ student }) { 
+function About({ student }) {
   return (
-    <Card style={{ width: "18rem" }}>
-      <Card.Img variant="top" src={student.avatar} />
-      <Card.Body>
+    <Card className="student-card h-100 shadow-sm">
+      <div className="img-wrapper">
+        <Card.Img
+          variant="top"
+          src={student.avatar || "/imgs/default-avatar.png"}
+          alt={student.name}
+          className="student-img"
+        />
+      </div>
+
+      <Card.Body className="text-center">
         <Card.Title>{student.name}</Card.Title>
-        <Card.Text>Age: {student.age}</Card.Text>
-        <Card.Text>Grade: {student.grade}</Card.Text>
-        <Button variant="primary">View Profile</Button>
+        <Card.Text>
+          Age: {student.age} <br />
+          Grade: {student.grade}
+        </Card.Text>
+        <Button variant="outline-primary">View Profile</Button>
       </Card.Body>
     </Card>
   );
 }
 
-    export default About;
+export default About;

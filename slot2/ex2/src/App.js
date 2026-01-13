@@ -2,6 +2,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import StudentList from './components/StudentList';
 import Container from 'react-bootstrap/Container';
 import Navbar from 'react-bootstrap/Navbar';
+import './App.css';
 
 function App() {
   return (

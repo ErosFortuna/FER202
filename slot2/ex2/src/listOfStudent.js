@@ -33,5 +33,41 @@ export const students = [
     avatar: "/imgs/images (3).webp",
     age: 28,
     grade: "A"
+  },
+
+  {
+    id: 6,
+    name: "Margot Robbie",
+    avatar: "/imgs/Margot Robbie.webp",
+    age: 34,
+    grade: "A"
+  },
+  {
+    id: 7,
+    name: "Ana de Armas",
+    avatar: "/imgs/Ana de Armas.webp",
+    age: 36,
+    grade: "A"
+  },
+  {
+    id: 8,
+    name: "Emma Stone",
+    avatar: "/imgs/Emma Stone.webp",
+    age: 36,
+    grade: "A"
+  },
+  {
+    id: 9,
+    name: "Natalie Portman",
+    avatar: "/imgs/Natalie Portman.webp",
+    age: 43,
+    grade: "A"
+  },
+  {
+    id: 10,
+    name: "Taylor Swift",
+    avatar: "/imgs/Taylor Swift.webp",
+    age: 35,
+    grade: "A"
   }
 ];
