@@ -14,6 +14,7 @@ function Student({ student }) {
         <>
             <Card className='student-card' style={{ width: '18rem' }}>
                 <div className="img-wrapper">
+                    <span className="top-badge">TOP</span>
                     <Card.Img
                         src={student.avatar}
                         className="student-img"
@@ -24,7 +25,7 @@ function Student({ student }) {
                     <Card.Text>
                         {student.name} - Age: {student.age} - Grade: {student.grade}
                     </Card.Text>
-                    <Button variant="primary">View Details</Button>
+                   <Button className="custom-btn">View Profile</Button>
                 </Card.Body>
             </Card>
         </>
