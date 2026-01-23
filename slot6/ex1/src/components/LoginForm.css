@@ -1,0 +1,123 @@
+.login-container {
+    background: linear-gradient(135deg, #06c6f0 0%, #ff6b35 100%);
+    min-height: 100vh;
+}
+
+.min-vh-100 {
+    min-height: 100vh;
+}
+
+.login-card {
+    border: none;
+    border-radius: 12px;
+    background: #ffffff;
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.1) !important;
+    animation: slideUp 0.5s ease-out;
+}
+
+@keyframes slideUp {
+    from {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.login-title {
+    font-size: 28px;
+    font-weight: 700;
+    color: #333;
+    letter-spacing: -0.5px;
+}
+
+.login-label {
+    font-weight: 600;
+    color: #333;
+    font-size: 14px;
+    margin-bottom: 8px;
+}
+
+.login-input {
+    height: 45px;
+    border: 1.5px solid #e0e0e0;
+    border-radius: 8px;
+    font-size: 14px;
+    transition: all 0.3s ease;
+}
+
+.login-input:focus {
+    border-color: #667eea;
+    box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.1);
+}
+
+.login-input-icon {
+    background-color: #f8f9ff;
+    border: 1.5px solid #e0e0e0;
+    color: #667eea;
+    border-radius: 8px 0 0 8px;
+}
+
+.login-btn {
+    height: 45px;
+    font-weight: 600;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    border: none;
+    border-radius: 8px;
+    font-size: 15px;
+    transition: all 0.3s ease;
+}
+
+.login-btn:hover {
+    background: linear-gradient(135deg, #5568d3 0%, #6b3e91 100%);
+    transform: translateY(-2px);
+    box-shadow: 0 8px 20px rgba(102, 126, 234, 0.3);
+}
+
+.cancel-btn {
+    height: 45px;
+    font-weight: 600;
+    border: 1.5px solid #e0e0e0;
+    border-radius: 8px;
+    font-size: 15px;
+    color: #666;
+    transition: all 0.3s ease;
+}
+
+.cancel-btn:hover {
+    background-color: #f8f9fa;
+    border-color: #999;
+    color: #333;
+}
+
+.login-link {
+    color: #667eea;
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: 500;
+    transition: all 0.3s ease;
+}
+
+.login-link:hover {
+    color: #764ba2;
+    text-decoration: underline;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .login-card {
+        margin: 20px;
+    }
+
+    .login-title {
+        font-size: 24px;
+    }
+
+    .login-btn,
+    .cancel-btn {
+        height: 42px;
+        font-size: 14px;
+    }
+}
