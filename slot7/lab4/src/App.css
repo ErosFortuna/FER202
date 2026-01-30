@@ -1,0 +1,121 @@
+/* ====== RESET ====== */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: linear-gradient(135deg, #eef2f7, #f9fbfd);
+  font-family: "Segoe UI", Arial, Helvetica, sans-serif;
+  color: #2c3e50;
+}
+
+/* ====== CONTAINER CHUNG ====== */
+.exercise-container {
+  background: #ffffff;
+  padding: 28px 30px;
+  margin: 40px auto;
+  max-width: 520px;
+  border-radius: 12px;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.08);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.exercise-container:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.12);
+}
+
+/* ====== TIÊU ĐỀ ====== */
+.exercise-container h2,
+.exercise-container h3 {
+  text-align: center;
+  margin-bottom: 24px;
+  font-weight: 600;
+  color: #34495e;
+}
+
+/* ====== FORM ====== */
+.form-label {
+  font-weight: 500;
+  margin-bottom: 6px;
+}
+
+.form-control,
+.form-select {
+  border-radius: 8px;
+  padding: 10px 12px;
+  transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+/* focus đẹp */
+.form-control:focus,
+.form-select:focus {
+  border-color: #0d6efd;
+  box-shadow: 0 0 0 0.15rem rgba(13, 110, 253, 0.25);
+}
+
+/* validation */
+.form-control.is-invalid,
+.form-select.is-invalid {
+  border-color: #dc3545;
+}
+
+.form-control.is-valid,
+.form-select.is-valid {
+  border-color: #198754;
+}
+
+.invalid-feedback {
+  font-size: 0.85rem;
+}
+
+/* ====== BUTTON ====== */
+button.btn {
+  border-radius: 8px;
+  padding: 8px 18px;
+  font-weight: 500;
+}
+
+button.btn-primary {
+  background: linear-gradient(135deg, #0d6efd, #0a58ca);
+  border: none;
+}
+
+button.btn-primary:hover {
+  opacity: 0.9;
+}
+
+/* ====== TODO LIST ====== */
+.todo-item,
+.list-group-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 8px;
+  margin-bottom: 8px;
+}
+
+.list-group-item {
+  transition: background 0.2s ease;
+}
+
+.list-group-item:hover {
+  background: #f1f5f9;
+}
+
+/* ====== MODAL ====== */
+.modal-content {
+  border-radius: 12px;
+}
+
+.modal-body {
+  font-size: 15px;
+  text-align: center;
+  padding: 20px;
+}
+
+/* ====== NAVBAR ====== */
+.navbar {
+  margin-bottom: 40px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+}
