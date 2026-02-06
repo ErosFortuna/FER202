@@ -7,7 +7,7 @@ const ACTIONS = {
     CLOSE_MODAL: 'close_modal',
     CONFIRM_ORDER: 'confirm_order',
 };
-// Hàm reducer để xử lý các action
+// Hàm reducer để xử lý các action*
 function reducer(state, action) {
     switch (action.type) {
         case ACTIONS.OPEN_MODAL:

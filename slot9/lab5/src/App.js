@@ -4,7 +4,6 @@ import NavBar from './components/FoodNavBar';
 import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import FoodNavBar from './components/FoodNavBar';
-import Footer from './components/Home';
 import Home from './components/Home';
 import MyCarousel from './components/FoodCarousel';
 import 'bootstrap/dist/css/bootstrap.min.css';

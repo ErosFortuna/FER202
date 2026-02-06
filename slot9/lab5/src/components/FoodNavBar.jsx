@@ -3,7 +3,7 @@ import { Navbar, Nav, Container } from 'react-bootstrap';
 import { NavLink } from 'react-router-dom'; 
 import 'bootstrap/dist/css/bootstrap.min.css';
 
-function NavBarPizza() {
+function FoodNavBar() {
     return (
         <Navbar bg="dark" variant="dark" expand="lg" sticky="top" className="mb-4 shadow">  
             <Container>
@@ -21,4 +21,4 @@ function NavBarPizza() {
         </Navbar>
     );
 }   
-export default NavBarPizza;
+export default FoodNavBar;

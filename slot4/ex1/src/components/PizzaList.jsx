@@ -7,11 +7,9 @@ import { Row } from 'react-bootstrap';
 function PizzaList() {
   return (
     <Container fluid className="my-10 d-flex flex-wrap justify-content-center bg-dark text-white">
-        {/* <Row> */}
        {pizzaData.map((pizza) => (
           <PizzaCard pizza={pizza} />
         ))}
-        {/* </Row> */}
       </Container>
   );
 }
