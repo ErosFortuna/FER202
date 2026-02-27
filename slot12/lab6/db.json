@@ -1,0 +1,257 @@
+{
+  "genres": [
+    {
+      "id": 1,
+      "name": "Sci-Fi"
+    },
+    {
+      "id": 2,
+      "name": "Comedy"
+    },
+    {
+      "id": 3,
+      "name": "Drama"
+    },
+    {
+      "id": 4,
+      "name": "Horror"
+    },
+    {
+      "id": 5,
+      "name": "Romance"
+    },
+    {
+      "id": 6,
+      "name": "Action"
+    },
+    {
+      "id": 7,
+      "name": "Thriller"
+    }
+  ],
+  "movies": [
+    {
+      "id": 1,
+      "title": "Galactic Wars",
+      "description": "Epic space battles decide the fate of a fractured galaxy as rival factions clash for control.",
+      "poster": "https://images.unsplash.com/photo-1446776811953-b23d57bd21aa",
+      "genreId": 1,
+      "year": 2022,
+      "country": "USA",
+      "duration": 132
+    },
+    {
+      "id": 2,
+      "title": "Laugh Out Loud",
+      "description": "A feel-good comedy about friendship, failure, and second chances in a small town.",
+      "poster": "https://images.unsplash.com/photo-1524985069026-dd778a71c7b4",
+      "genreId": 2,
+      "year": 2021,
+      "country": "UK",
+      "duration": 105
+    },
+    {
+      "id": 3,
+      "title": "Deep Blue",
+      "description": "A gripping survival drama set far from shore when a voyage goes wrong.",
+      "poster": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e",
+      "genreId": 3,
+      "year": 2019,
+      "country": "Australia",
+      "duration": 118
+    },
+    {
+      "id": 4,
+      "title": "Haunted House",
+      "description": "A teen dares to spend one night in a house with a dark past—and uncovers the truth.",
+      "poster": "https://images.unsplash.com/photo-1509248961158-e54f6934749c",
+      "genreId": 4,
+      "year": 2020,
+      "country": "Canada",
+      "duration": 98
+    },
+    {
+      "id": 5,
+      "title": "City of Love",
+      "description": "Two strangers meet in a sleepless city and rewrite their plans for life and love.",
+      "poster": "https://images.unsplash.com/photo-1497032628192-86f99bcd76bc",
+      "genreId": 5,
+      "year": 2018,
+      "country": "France",
+      "duration": 110
+    },
+    {
+      "id": 6,
+      "title": "The Time Traveler",
+      "description": "A brilliant scientist discovers a way to bend time—at a cost no one could foresee.",
+      "poster": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee",
+      "genreId": 1,
+      "year": 2023,
+      "country": "USA",
+      "duration": 124
+    },
+    {
+      "id": 7,
+      "title": "Street Runner",
+      "description": "An ex-courier is forced back into the fast lane for one last job across the neon city.",
+      "poster": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429",
+      "genreId": 6,
+      "year": 2021,
+      "country": "Japan",
+      "duration": 102
+    },
+    {
+      "id": 8,
+      "title": "Hidden Truth",
+      "description": "A reporter unravels a conspiracy that powerful people will do anything to keep buried.",
+      "poster": "https://images.unsplash.com/photo-1505685296765-3a2736de412f",
+      "genreId": 7,
+      "year": 2022,
+      "country": "Germany",
+      "duration": 115
+    },
+    {
+      "id": 9,
+      "title": "Kingdom of Ash",
+      "description": "A fallen prince must unite rival clans to reclaim a cursed land and his destiny.",
+      "poster": "https://images.unsplash.com/photo-1478720568477-152d9b164e26",
+      "genreId": 2,
+      "year": 2020,
+      "country": "New Zealand",
+      "duration": 141
+    },
+    {
+      "id": 10,
+      "title": "Midnight Signal",
+      "description": "A mysterious radio signal awakens an ancient force beneath a frozen wasteland.",
+      "poster": "https://images.unsplash.com/photo-1519125323398-675f0ddb6308",
+      "genreId": 1,
+      "year": 2024,
+      "country": "USA",
+      "duration": 128
+    },
+    {
+      "id": 11,
+      "title": "The Last Stand",
+      "description": "A retired soldier must defend his village from a ruthless criminal empire.",
+      "poster": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee",
+      "genreId": 6,
+      "year": 2022,
+      "country": "UK",
+      "duration": 116
+    },
+    {
+      "id": 12,
+      "title": "Broken Silence",
+      "description": "A courtroom drama that exposes secrets hidden for decades.",
+      "poster": "https://images.unsplash.com/photo-1497032628192-86f99bcd76bc",
+      "genreId": 3,
+      "year": 2021,
+      "country": "Canada",
+      "duration": 122
+    },
+    {
+      "id": 13,
+      "title": "Dark Whispers",
+      "description": "Strange voices echo through an abandoned asylum after midnight.",
+      "poster": "https://images.unsplash.com/photo-1509248961158-e54f6934749c",
+      "genreId": 4,
+      "year": 2023,
+      "country": "Germany",
+      "duration": 101
+    },
+    {
+      "id": 14,
+      "title": "Love in Paris",
+      "description": "Two artists meet in Paris and fall in love while chasing their dreams.",
+      "poster": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429",
+      "genreId": 5,
+      "year": 2020,
+      "country": "France",
+      "duration": 109
+    },
+    {
+      "id": 15,
+      "title": "Cyber Hunt",
+      "description": "A hacker uncovers a global conspiracy hidden inside a virtual world.",
+      "poster": "https://images.unsplash.com/photo-1446776811953-b23d57bd21aa",
+      "genreId": 7,
+      "year": 2024,
+      "country": "Japan",
+      "duration": 117
+    },
+    {
+      "id": 16,
+      "title": "Fast Horizon",
+      "description": "Street racers compete in a high-stakes underground tournament.",
+      "poster": "https://images.unsplash.com/photo-1505685296765-3a2736de412f",
+      "genreId": 6,
+      "year": 2021,
+      "country": "USA",
+      "duration": 104
+    },
+    {
+      "id": 17,
+      "title": "Ocean Hearts",
+      "description": "A marine biologist discovers love while protecting endangered reefs.",
+      "poster": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e",
+      "genreId": 5,
+      "year": 2019,
+      "country": "Australia",
+      "duration": 111
+    },
+    {
+      "id": 18,
+      "title": "Laugh Factory",
+      "description": "An aspiring comedian struggles to make it big in the city.",
+      "poster": "https://images.unsplash.com/photo-1524985069026-dd778a71c7b4",
+      "genreId": 2,
+      "year": 2022,
+      "country": "USA",
+      "duration": 97
+    },
+    {
+      "id": 19,
+      "title": "Shadow Code",
+      "description": "An elite agent deciphers encrypted messages to prevent a catastrophe.",
+      "poster": "https://images.unsplash.com/photo-1519125323398-675f0ddb6308",
+      "genreId": 7,
+      "year": 2023,
+      "country": "UK",
+      "duration": 123
+    },
+    {
+      "id": 20,
+      "title": "Empire of Dust",
+      "description": "A fallen empire fights to reclaim its former glory in a brutal war.",
+      "poster": "https://images.unsplash.com/photo-1478720568477-152d9b164e26",
+      "genreId": 3,
+      "year": 2020,
+      "country": "New Zealand",
+      "duration": 138
+    },
+    {
+      "id": "2627",
+      "avatar": "https://upload.wikimedia.org/wikipedia/en/7/7b/Whisper_of_the_Heart_%281995%29.png",
+      "title": "Whisper of the Heart",
+      "description": "A coming-of-age story about a young girl who discovers her passion for writing while navigating first love and personal dreams.",
+      "genreId": 5,
+      "duration": 111,
+      "year": 1995,
+      "country": "Nhật Bản"
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "username": "admin",
+      "password": "123456",
+      "name": "Administrator"
+    },
+    {
+      "id": 99,
+      "username": "test123",
+      "password": "111"
+    }
+  ]
+}

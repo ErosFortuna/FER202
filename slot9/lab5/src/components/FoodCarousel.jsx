@@ -22,5 +22,4 @@ function MyCarousel({ bannerImages }) {
         </Carousel>
     );
 }
-
 export default MyCarousel;

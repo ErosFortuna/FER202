@@ -14,7 +14,9 @@ function FoodNavBar() {
                         <Nav.Link as={NavLink} to="/">Home</Nav.Link>
                         <Nav.Link as={NavLink} to="/news">News</Nav.Link>
                         <Nav.Link as={NavLink} to="/contact">Contact</Nav.Link>
-                        <Nav.Link as={NavLink} to="/quiz">Quiz</Nav.Link>
+                        <Nav.Link as={NavLink} to="/quiz">Quiz</Nav.Link>\
+                        <Nav.Link as={NavLink} to="/user">User</Nav.Link>
+                        <Nav.Link as={NavLink} to="/post">Post</Nav.Link>
                     </Nav>
                 </Navbar.Collapse>  
             </Container>

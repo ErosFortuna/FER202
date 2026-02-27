@@ -1,0 +1,51 @@
+/* ===== RESET ===== */
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  transition: all 0.3s ease;
+}
+
+/* ===== APP CONTAINER ===== */
+.app-container {
+  min-height: 100vh;
+  padding: 40px;
+  text-align: center;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* ===== LIGHT THEME ===== */
+.app-container.light {
+  background-color: #f4f6f9;
+  color: #212529;
+}
+
+/* ===== DARK THEME ===== */
+.app-container.dark {
+  background-color: #1e1e2f;
+  color: #ffffff;
+}
+
+/* ===== TITLE ===== */
+.app-title {
+  margin-bottom: 40px;
+  font-weight: bold;
+}
+
+/* ===== CARD STYLE (DÙNG CLASS RIÊNG) ===== */
+.card-container {
+  border-radius: 12px;
+  margin: 20px auto;
+  max-width: 500px;
+  padding: 20px;
+  transition: all 0.3s ease;
+}
+
+.app-container.light .card-container {
+  background: #ffffff;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+}
+
+.app-container.dark .card-container {
+  background: #2c2c3e;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
+}
